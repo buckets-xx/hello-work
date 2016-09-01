@@ -1,0 +1,22 @@
+﻿cinst VIM
+cinst Nano
+cinst conEMu
+cinst AWScli
+cinst chocolateypackageupdater 
+cinst python3
+cinst git.install 
+cinst visualstudiocommunity2013
+cinst hulu.desktop 
+cinst git-credential-manager-for-windows 
+cinst poshgit
+cinst git-credential-winstore -Version 1.2.0.0
+cinst  pester
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+
+
+Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
+
+Install-Module Pscolor 
+Install-Module PSReadline
+Install-Module ISESteroids -Scope CurrentUser
