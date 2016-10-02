@@ -2,7 +2,8 @@
 cinst VIM
 cinst Nano
 cinst conEMu
-
+cinst notepadplusplus
+cinst firefox
 #tools 
 cinst AWScli
 cinst visualstudiocommunity2013
